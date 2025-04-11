@@ -1,0 +1,74 @@
+index.hrm1<!DOCTYPE html><html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>Қазақ тілі тесті</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+    h1 { text-align: center; }
+    .question { margin-bottom: 20px; }
+    .question p { font-weight: bold; }
+    button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    .result { font-size: 20px; margin-top: 30px; font-weight: bold; color: green; }
+  </style>
+</head>
+<body>
+  <h1>Қазақ тілі бойынша тест</h1>
+  <form id="quizForm">
+    <div class="question">
+      <p>1. «Мен мектепке барамын» сөйлемінде қай сөз етістік?</p>
+      <label><input type="radio" name="q1" value="c"> барамын</label><br>
+      <label><input type="radio" name="q1" value="a"> мен</label><br>
+      <label><input type="radio" name="q1" value="b"> мектепке</label><br>
+      <label><input type="radio" name="q1" value="d"> сөйлем</label>
+    </div><div class="question">
+  <p>2. Көптік жалғауы дұрыс жалғанған сөзді табыңыз:</p>
+  <label><input type="radio" name="q2" value="b"> үйлер</label><br>
+  <label><input type="radio" name="q2" value="a"> кітапда</label><br>
+  <label><input type="radio" name="q2" value="c"> балаға</label><br>
+  <label><input type="radio" name="q2" value="d"> көлікке</label>
+</div>
+
+<div class="question">
+  <p>3. «Қазақстанның астанасы – Астана» сөйлемінде бастауыш қай сөз?</p>
+  <label><input type="radio" name="q3" value="b"> астанасы</label><br>
+  <label><input type="radio" name="q3" value="a"> Қазақстанның</label><br>
+  <label><input type="radio" name="q3" value="c"> Астана</label><br>
+  <label><input type="radio" name="q3" value="d"> –</label>
+</div>
+
+<div class="question">
+  <p>4. Сөздің дұрыс аудармасын табыңыз: "Семья"</p>
+  <label><input type="radio" name="q4" value="b"> отбасы</label><br>
+  <label><input type="radio" name="q4" value="a"> мектеп</label><br>
+  <label><input type="radio" name="q4" value="c"> адам</label><br>
+  <label><input type="radio" name="q4" value="d"> үй</label>
+</div>
+
+<div class="question">
+  <p>5. «Ол дүкенге барды» сөйлемінің болымсыз түрін көрсетіңіз:</p>
+  <label><input type="radio" name="q5" value="b"> Ол дүкенге бармайды</label><br>
+  <label><input type="radio" name="q5" value="a"> Ол дүкенге барады</label><br>
+  <label><input type="radio" name="q5" value="c"> Ол дүкенге бара</label><br>
+  <label><input type="radio" name="q5" value="d"> Ол дүкенге барма</label>
+</div>
+
+<div class="question">
+  <p>6. «Менің атым Айгүл» деген сөйлемде кім туралы айтылып тұр?</p>
+  <label><input type="radio" name="q6" value="c"> Мен туралы</label><br>
+  <label><input type="radio" name="q6" value="a"> Сен туралы</label><br>
+  <label><input type="radio" name="q6" value="b"> Ол туралы</label><br>
+  <label><input type="radio" name="q6" value="d"> Айгүл туралы</label>
+</div>
+
+<div class="question">
+  <p>7. Дұрыс сұраулы сөйлемді көрсетіңіз:</p>
+  <label><input type="radio" name="q7" value="a"> Сен қайда бардың?</label><br>
+  <label><input type="radio" name="q7" value="b"> Сен бардың қайда?</label><br>
+  <label><input type="radio" name="q7" value="c"> Қайда сен бардың?</label><br>
+  <label><input type="radio" name="q7" value="d"> Сен қайда барамын?</label>
+</div>
+
+<div class="question">
+  <p>8. «Көктемде күн жылы болады» сөйлемінде қай мезгіл туралы айтылған?</p>
+  <label><input type="radio" name="q8" value="d"> Көктем</label><br>
+  <label><input type="radio" name="q8" value="a"> Қыс
